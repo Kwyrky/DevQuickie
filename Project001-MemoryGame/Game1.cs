@@ -20,7 +20,8 @@ public class Game1 : Game
         _graphics.PreferredBackBufferWidth = Globals.Bounds.X;
         _graphics.PreferredBackBufferHeight = Globals.Bounds.Y;
         _graphics.ApplyChanges();
-        Window.Title = "GameDev Quickie: Memory Game";
+        // Window.Title = "GameDev Quickie: Memory Game";
+        Window.Title = "Marisas & Bastians Memory Game";
 
         base.Initialize();
     }

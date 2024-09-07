@@ -16,7 +16,7 @@ public class MenuState : GameState
         AddButton(new(Globals.Content.Load<Texture2D>("Menu/easy"), new(x - 300, y))).OnClick += gm.StartEasy;
         AddButton(new(Globals.Content.Load<Texture2D>("Menu/medium"), new(x, y))).OnClick += gm.StartMedium;
         AddButton(new(Globals.Content.Load<Texture2D>("Menu/hard"), new(x + 300, y))).OnClick += gm.StartHard;
-        AddButton(new(Globals.Content.Load<Texture2D>("Menu/youtube"), new(Globals.Bounds.X - 70, 50))).OnClick += OpenYouTube;
+        // AddButton(new(Globals.Content.Load<Texture2D>("Menu/youtube"), new(Globals.Bounds.X - 70, 50))).OnClick += OpenYouTube;
         AddButton(SoundManager.MusicBtn);
         AddButton(SoundManager.SoundBtn);
 
