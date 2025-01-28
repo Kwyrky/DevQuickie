@@ -3,7 +3,7 @@ namespace Project001;
 public class GameManager
 {
     public Board Board { get; }
-    private GameState _gameState;
+    public GameState _gameState;
     public Card FirstCard { get; set; }
     public Card SecondCard { get; set; }
 

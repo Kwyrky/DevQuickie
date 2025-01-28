@@ -18,7 +18,7 @@ public class Board
 
         for (int i = 0; i < MAX_CARDS; i++)
         {
-            CardTextures[i] = Globals.Content.Load<Texture2D>($"Cards/{i+1}");
+            CardTextures[i] = Globals.Content.Load<Texture2D>($"Cards/{i+1:D2}");
         }
     }
 

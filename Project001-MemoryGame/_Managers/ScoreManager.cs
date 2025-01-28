@@ -87,9 +87,9 @@ public static class ScoreManager
         _currentDifficulty = difficulty;
         _firstRoundTime = difficulty switch
         {
-            Difficulty.Easy => 30,
-            Difficulty.Medium => 25,
-            Difficulty.Hard => 20,
+            Difficulty.Easy => 300,
+            Difficulty.Medium => 250,
+            Difficulty.Hard => 200,
             _ => 20
         };
     }
